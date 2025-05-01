@@ -1,0 +1,20 @@
+{
+    "users": [
+        {
+            "id": "9df1",
+            "fullName": "Admin NetCare",
+            "username": "admin",
+            "password": "12345678",
+            "email": "admin@netcare.com",
+            "role": "admin"
+        },
+        {
+            "id": "97ca",
+            "fullName": "Byan Nur Cahyo",
+            "username": "byannurcahyo",
+            "password": "12345678",
+            "email": "byannurcahyo@gmail.com",
+            "role": "user"
+        }
+    ]
+}
