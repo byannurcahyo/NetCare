@@ -67,6 +67,25 @@ bun preview
 
 Open your browser and go to `http://localhost:4173` to access the application.
 
+## Dummy Login Credentials
+
+Berikut adalah akun dummy yang dapat digunakan untuk mengakses aplikasi **NetCare** selama proses pengujian atau demonstrasi. Data hanya digunakan untuk keperluan lokal/testing.
+
+### Admin
+
+-   **Email:** admin@netcare.com
+-   **Password:** 12345678
+
+### User (Example)
+
+-   **Email:** byannurcahyo@gmail.com
+-   **Password:** 12345678
+
+### Notes
+
+-   Semua password dummy diset ke `12345678`.
+-   Anda dapat melihat daftar lengkap user dummy di file `db.json`
+
 ## Screenshots
 
 1. Landing Page
