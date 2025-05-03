@@ -62,10 +62,10 @@ bun serve
 Finally run the app with the command below
 
 ```bash
-bun dev
+bun preview
 ```
 
-Open your browser and go to `http://localhost:5173` to access the application.
+Open your browser and go to `http://localhost:4173` to access the application.
 
 ## Screenshots
 
