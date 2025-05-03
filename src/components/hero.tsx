@@ -5,13 +5,13 @@ export default function Hero() {
     const navigate = useNavigate();
 
     const handleScrollToSection = (sectionId: string) => {
-        if (window.location.pathname === "/home") {
+        if (window.location.pathname === "/") {
             const element = document.getElementById(sectionId);
             if (element) {
                 element.scrollIntoView({ behavior: "smooth" });
             }
         } else {
-            navigate(`/home#${sectionId}`);
+            navigate(`/#${sectionId}`);
         }
     };
 
