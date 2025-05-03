@@ -15,6 +15,224 @@
             "password": "12345678",
             "email": "byannurcahyo@gmail.com",
             "role": "user"
+        },
+        {
+            "id": "ba0b",
+            "fullName": "Regina Sellers",
+            "username": "reginasellers",
+            "email": "reginasellers@mail.com",
+            "password": "12345678",
+            "role": "user"
+        },
+        {
+            "id": "4cf1",
+            "fullName": "Paloma Shaw",
+            "username": "palomashaw",
+            "email": "palomashaw@mail.com",
+            "password": "12345678",
+            "role": "user"
+        },
+        {
+            "id": "e394",
+            "fullName": "Imelda Ochoa",
+            "username": "imeldaochoa",
+            "email": "imeldaochoa@mail.com",
+            "password": "12345678",
+            "role": "user"
+        },
+        {
+            "id": "475d",
+            "fullName": "Lyle Franklin",
+            "username": "lylefranklin",
+            "email": "lylefranklin@mail.com",
+            "password": "12345678",
+            "role": "user"
+        }
+    ],
+    "packages": [
+        {
+            "id": "z01k",
+            "name": "Paket Hemat 1 GB + Unlimited Call",
+            "data": "1 GB",
+            "bonus": "Unlimited Call",
+            "duration": "30 Hari",
+            "price": 5000,
+            "description": "Dapatkan paket hemat 1 GB + Unlimited Call dengan harga terjangkau"
+        },
+        {
+            "id": "z02k",
+            "name": "Paket Hemat 2 GB + Unlimited Games",
+            "data": "2 GB",
+            "bonus": "Unlimited Games",
+            "duration": "30 Hari",
+            "price": 10000,
+            "description": "Dapatkan Paket Hemat 2 GB + Unlimited Games dengan harga terjangkau"
+        },
+        {
+            "id": "z03k",
+            "name": "Paket Hemat 3 GB + Unlimited Social Media",
+            "data": "3 GB",
+            "bonus": "Unlimited Social Media",
+            "duration": "30 Hari",
+            "price": 15000,
+            "description": "Dapatkan Paket Hemat 3 GB + Unlimited Social Media dengan harga terjangkau"
+        },
+        {
+            "id": "z04k",
+            "name": "Paket Hemat 4 GB + Unlimited Streaming",
+            "data": "4 GB",
+            "bonus": "Unlimited Streaming",
+            "duration": "30 Hari",
+            "price": 20000,
+            "description": "Dapatkan Paket Hemat 4 GB + Unlimited Streaming dengan harga terjangkau"
+        },
+        {
+            "id": "z05k",
+            "name": "Paket Hemat 5 GB + Unlimited Social Media",
+            "data": "5 GB",
+            "bonus": "Unlimited Social Media",
+            "duration": "30 Hari",
+            "price": 25000,
+            "description": "Dapatkan Paket Hemat 5 GB + Unlimited Social Media dengan harga terjangkau"
+        },
+        {
+            "id": "z06k",
+            "name": "Paket Hemat 6 GB + Unlimited Streaming",
+            "data": "6 GB",
+            "bonus": "Unlimited Streaming",
+            "duration": "30 Hari",
+            "price": 30000,
+            "description": "Dapatkan Paket Hemat 6 GB + Unlimited Streaming dengan harga terjangkau"
+        },
+        {
+            "id": "z07k",
+            "name": "Paket Hemat 7 GB + Unlimited Call",
+            "data": "7 GB",
+            "bonus": "Unlimited Call",
+            "duration": "30 Hari",
+            "price": 35000,
+            "description": "Dapatkan Paket Hemat 7 GB + Unlimited Call dengan harga terjangkau"
+        },
+        {
+            "id": "z08k",
+            "name": "Paket Hemat 8 GB + Unlimited Games",
+            "data": "8 GB",
+            "bonus": "Unlimited Games",
+            "duration": "30 Hari",
+            "price": 40000,
+            "description": "Dapatkan Paket Hemat 8 GB + Unlimited Games dengan harga terjangkau"
+        }
+    ],
+    "transactions": [
+        {
+            "id": "s8d1",
+            "userId": "ba0b",
+            "fullName": "Regina Sellers",
+            "phoneNumber": "081234567890",
+            "packageId": "z01k",
+            "packageName": "Paket Hemat 1 GB + Unlimited Call",
+            "price": 5000,
+            "status": "success",
+            "date": "2025-05-02T04:11:35.445Z"
+        },
+        {
+            "id": "jh63",
+            "userId": "4cf1",
+            "fullName": "Paloma Shaw",
+            "phoneNumber": "081220763947",
+            "packageId": "z02k",
+            "packageName": "Paket Hemat 2 GB + Unlimited Games",
+            "price": 10000,
+            "status": "pending",
+            "date": "2025-05-02T04:13:38.445Z"
+        },
+        {
+            "id": "e394",
+            "userId": "ba0b",
+            "fullName": "Imelda Ochoa",
+            "phoneNumber": "081208367162",
+            "packageId": "z03k",
+            "packageName": "Paket Hemat 3 GB + Unlimited Social Media",
+            "price": 15000,
+            "status": "pending",
+            "date": "2025-05-02T04:14:12.445Z"
+        },
+        {
+            "id": "3fe3",
+            "userId": "475d",
+            "fullName": "Lyle Franklin",
+            "phoneNumber": "081262048725",
+            "packageId": "z04k",
+            "packageName": "Paket Hemat 4 GB + Unlimited Streaming",
+            "price": 20000,
+            "status": "success",
+            "date": "2025-05-02T04:15:38.184Z"
+        },
+        {
+            "id": "dj76",
+            "userId": "97ca",
+            "fullName": "Byan Nur Cahyo",
+            "phoneNumber": "081222001122",
+            "packageId": "z05k",
+            "packageName": "Paket Hemat 5 GB + Unlimited Social Media",
+            "price": 25000,
+            "status": "success",
+            "date": "2025-05-01T08:00:00.000Z"
+        },
+        {
+            "id": "09js",
+            "userId": "ba0b",
+            "fullName": "Regina Sellers",
+            "phoneNumber": "081233445566",
+            "packageId": "z06k",
+            "packageName": "Paket Hemat 6 GB + Unlimited Streaming",
+            "price": 30000,
+            "status": "success",
+            "date": "2025-05-01T09:00:00.000Z"
+        },
+        {
+            "id": "jd67",
+            "userId": "4cf1",
+            "fullName": "Paloma Shaw",
+            "phoneNumber": "081234556677",
+            "packageId": "z07k",
+            "packageName": "Paket Hemat 7 GB + Unlimited Call",
+            "price": 35000,
+            "status": "success",
+            "date": "2025-05-01T10:00:00.000Z"
+        },
+        {
+            "id": "wk87",
+            "userId": "e394",
+            "fullName": "Imelda Ochoa",
+            "phoneNumber": "081209988776",
+            "packageId": "z08k",
+            "packageName": "Paket Hemat 8 GB + Unlimited Games",
+            "price": 40000,
+            "status": "failed",
+            "date": "2025-05-01T11:00:00.000Z"
+        },
+        {
+            "id": "vf76",
+            "userId": "475d",
+            "fullName": "Lyle Franklin",
+            "phoneNumber": "081200112233",
+            "packageId": "z01k",
+            "packageName": "Paket Hemat 1 GB + Unlimited Call",
+            "price": 5000,
+            "status": "success",
+            "date": "2025-05-01T12:00:00.000Z"
+        },
+        {
+            "id": "k8d4",
+            "userId": "97ca",
+            "fullName": "Byan Nur Cahyo",
+            "phoneNumber": "081266778899",
+            "packageId": "z02k",
+            "packageName": "Paket Hemat 2 GB + Unlimited Games",
+            "price": 10000,
+            "status": "pending",
+            "date": "2025-05-01T13:00:00.000Z"
         }
     ]
 }

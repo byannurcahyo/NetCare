@@ -1,54 +1,79 @@
-# React + TypeScript + Vite
+# NetCare - Internship Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **NetCare**, a mini project submission for internship. NetCare is a simplified internet package purchasing application, allowing users to register, login, view available packages, and make transactions. Admins can manage users and view all transactions.
 
-Currently, two official plugins are available:
+---
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+-   **User Authentication**
+    -   Login system with role-based access control
+    -   Supports both `admin` and `user` roles
+-   **Package Listings**
+    -   Show available internet packages with data, bonus, duration, and price
+-   **Transaction System**
+    -   Users can purchase packages
+    -   Transactions include phone number, package, status, and date
+-   **Admin Features**
+    -   View all users
+    -   View all packages
+    -   View all transactions
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-    extends: [
-        // Remove ...tseslint.configs.recommended and replace with this
-        ...tseslint.configs.recommendedTypeChecked,
-        // Alternatively, use this for stricter rules
-        ...tseslint.configs.strictTypeChecked,
-        // Optionally, add this for stylistic rules
-        ...tseslint.configs.stylisticTypeChecked,
-    ],
-    languageOptions: {
-        // other options...
-        parserOptions: {
-            project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-            tsconfigRootDir: import.meta.dirname,
-        },
-    },
-});
+## Installation
+
+Clone this repository
+
+```bash
+git clone https://github.com/byannurcahyo/NetCare.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Go to the directory
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
-
-export default tseslint.config({
-    plugins: {
-        // Add the react-x and react-dom plugins
-        "react-x": reactX,
-        "react-dom": reactDom,
-    },
-    rules: {
-        // other rules...
-        // Enable its recommended typescript rules
-        ...reactX.configs["recommended-typescript"].rules,
-        ...reactDom.configs.recommended.rules,
-    },
-});
+```bash
+cd NetCare
 ```
+
+Install the dependencies
+
+```bash
+bun install
+```
+
+Create .env
+
+```bash
+cp .env.example .env
+```
+
+Build the app
+
+```bash
+bun run build
+```
+
+Run the server API from `json-server`
+
+```bash
+bun serve
+```
+
+Finally run the app with the command below
+
+```bash
+bun dev
+```
+
+Open your browser and go to `http://localhost:5173` to access the application.
+
+## Screenshots
+
+1. Landing Page
+   ![Landing Page](./public/home.png)
+
+2. Login Page
+   ![Login Page](./public/login.png)
+
+3. Admin Page
+   ![Admin Page](./public/admin.png)

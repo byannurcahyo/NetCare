@@ -1,9 +1,9 @@
+import { Toaster } from "@/components/ui/sonner";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { RouterProvider } from "react-router-dom";
+import router from "./routes.tsx";
 import "./index.css";
-import App from "./App.tsx";
-import NotFound from "./pages/NotFound.tsx";
 
 const rootElement = document.getElementById("root");
 if (!rootElement) {
@@ -12,11 +12,7 @@ if (!rootElement) {
 
 createRoot(rootElement).render(
     <StrictMode>
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<App />} />
-                <Route path="*" element={<NotFound />} />
-            </Routes>
-        </BrowserRouter>
+        <RouterProvider router={router} />
+        <Toaster />
     </StrictMode>,
 );
